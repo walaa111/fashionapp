@@ -328,6 +328,11 @@ padding: 10px;
    width: 50%;
      height: 200px;
 }
+.footer h3 img
+{
+    width: 20%;
+    height: 20%;
+}
 .footer h3
 {
     display: inline;
