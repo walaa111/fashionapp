@@ -66,13 +66,13 @@ $(".t7der").on("click",function(){
 var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) { 
     admobid = { // for Android
-        banner: 'ca-app-pub-7251676025279948~2665838710',
+        banner: 'ca-app-pub-7251676025279948/6733157448',
         interstitial: 'ca-app-pub-7251676025279948/4142571918'
     };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
     admobid = { // for iOS
         banner: 'ca-app-pub-6869992474017983/4806197152',
-        interstitial: 'ca-app-pub-6869992474017983/7563979554'
+        interstitial: 'ca-app-pub-7251676025279948/1676271887'
     };
 } else {
     admobid = { // for Windows Phone
